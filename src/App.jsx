@@ -48,6 +48,7 @@ function App() {
 
       setTasks(data);
     };
+    
     // se quiser, pode charmar uma API para pegar as tarefas
     // fetchTasks();
   }, []);
